@@ -5,7 +5,7 @@ import numpy as np
 
 # Array data for a 4x3 RGB (black) image.
 dtype = [("r", np.uint8), ("g", np.uint8), ("b", np.uint8)]
-array = np.zeros((4,3), dtype=dtype)
+array = np.zeros((3,4), dtype=dtype)
 
 # declare data & function for cffi 
 ffi = FFI()
